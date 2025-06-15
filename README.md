@@ -1,8 +1,6 @@
 # 📝 VoiceNote App
 
 <div align="center">
-  <img src="NoteTakingApp/Assets.xcassets/ic_preview.imageset/ic_preview.png" alt="App Icon" width="200"/>
-  
   <p><em>A modern voice-to-text note-taking application built with SwiftUI and SwiftData</em></p>
   <p style="color: #666; font-size: 0.9em;">⚠️ This is a learning project, not intended for production use</p>
 </div>
@@ -65,18 +63,14 @@
 
 ## 📱 Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
   <div style="text-align: center;">
-    <img src="screenshots/splash.png" alt="Splash Screen" style="max-width: 100%; border-radius: 10px;"/>
-    <p>Splash Screen</p>
+    <img src="screenshots/about.png" alt="About Screen" width="250"/>
+    <p>About Screen</p>
   </div>
   <div style="text-align: center;">
-    <img src="screenshots/notes.png" alt="Notes List" style="max-width: 100%; border-radius: 10px;"/>
-    <p>Notes List</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="screenshots/detail.png" alt="Note Detail" style="max-width: 100%; border-radius: 10px;"/>
-    <p>Note Detail</p>
+    <img src="screenshots/record.png" alt="Record Screen" width="250"/>
+    <p>Record Screen</p>
   </div>
 </div>
 
@@ -92,7 +86,7 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/VoiceNote.git
+git clone https://github.com/FlutterDev98/VoiceNote.git
 ```
 
 2. Open the project in Xcode
@@ -141,46 +135,3 @@ open VoiceNote.xcodeproj
 
 - Apple for SwiftUI and SwiftData
 - The Swift community for their excellent resources
-
----
-
-<div align="center">
-  <p>Made with ❤️ using SwiftUI</p>
-</div>
-
-<style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  h1, h2, h3 {
-    color: #2c3e50;
-  }
-  
-  pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin: 20px 0;
-  }
-  
-  .card {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-</style> 
