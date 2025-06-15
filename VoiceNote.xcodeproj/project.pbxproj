@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E44A81D92DFCA9E100845296 /* Pulsator in Frameworks */ = {isa = PBXBuildFile; productRef = E44A81D82DFCA9E100845296 /* Pulsator */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E43389F52DFB019500F13534 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E43389E52DFB019100F13534 /* NoteTakingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteTakingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E43389F42DFB019500F13534 /* NoteTakingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E43389FE2DFB019500F13534 /* NoteTakingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43389E52DFB019100F13534 /* VoiceNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43389F42DFB019500F13534 /* VoiceNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43389FE2DFB019500F13534 /* VoiceNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44A81D92DFCA9E100845296 /* Pulsator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,9 +90,9 @@
 		E43389E62DFB019100F13534 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E43389E52DFB019100F13534 /* NoteTakingApp.app */,
-				E43389F42DFB019500F13534 /* NoteTakingAppTests.xctest */,
-				E43389FE2DFB019500F13534 /* NoteTakingAppUITests.xctest */,
+				E43389E52DFB019100F13534 /* VoiceNote.app */,
+				E43389F42DFB019500F13534 /* VoiceNoteTests.xctest */,
+				E43389FE2DFB019500F13534 /* VoiceNoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E43389E42DFB019100F13534 /* NoteTakingApp */ = {
+		E43389E42DFB019100F13534 /* VoiceNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4338A082DFB019500F13534 /* Build configuration list for PBXNativeTarget "NoteTakingApp" */;
+			buildConfigurationList = E4338A082DFB019500F13534 /* Build configuration list for PBXNativeTarget "VoiceNote" */;
 			buildPhases = (
 				E43389E12DFB019100F13534 /* Sources */,
 				E43389E22DFB019100F13534 /* Frameworks */,
@@ -110,16 +115,17 @@
 			fileSystemSynchronizedGroups = (
 				E43389E72DFB019100F13534 /* NoteTakingApp */,
 			);
-			name = NoteTakingApp;
+			name = VoiceNote;
 			packageProductDependencies = (
+				E44A81D82DFCA9E100845296 /* Pulsator */,
 			);
 			productName = NoteTakingApp;
-			productReference = E43389E52DFB019100F13534 /* NoteTakingApp.app */;
+			productReference = E43389E52DFB019100F13534 /* VoiceNote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E43389F32DFB019500F13534 /* NoteTakingAppTests */ = {
+		E43389F32DFB019500F13534 /* VoiceNoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4338A0B2DFB019500F13534 /* Build configuration list for PBXNativeTarget "NoteTakingAppTests" */;
+			buildConfigurationList = E4338A0B2DFB019500F13534 /* Build configuration list for PBXNativeTarget "VoiceNoteTests" */;
 			buildPhases = (
 				E43389F02DFB019500F13534 /* Sources */,
 				E43389F12DFB019500F13534 /* Frameworks */,
@@ -133,16 +139,16 @@
 			fileSystemSynchronizedGroups = (
 				E43389F72DFB019500F13534 /* NoteTakingAppTests */,
 			);
-			name = NoteTakingAppTests;
+			name = VoiceNoteTests;
 			packageProductDependencies = (
 			);
 			productName = NoteTakingAppTests;
-			productReference = E43389F42DFB019500F13534 /* NoteTakingAppTests.xctest */;
+			productReference = E43389F42DFB019500F13534 /* VoiceNoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E43389FD2DFB019500F13534 /* NoteTakingAppUITests */ = {
+		E43389FD2DFB019500F13534 /* VoiceNoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4338A0E2DFB019500F13534 /* Build configuration list for PBXNativeTarget "NoteTakingAppUITests" */;
+			buildConfigurationList = E4338A0E2DFB019500F13534 /* Build configuration list for PBXNativeTarget "VoiceNoteUITests" */;
 			buildPhases = (
 				E43389FA2DFB019500F13534 /* Sources */,
 				E43389FB2DFB019500F13534 /* Frameworks */,
@@ -156,11 +162,11 @@
 			fileSystemSynchronizedGroups = (
 				E4338A012DFB019500F13534 /* NoteTakingAppUITests */,
 			);
-			name = NoteTakingAppUITests;
+			name = VoiceNoteUITests;
 			packageProductDependencies = (
 			);
 			productName = NoteTakingAppUITests;
-			productReference = E43389FE2DFB019500F13534 /* NoteTakingAppUITests.xctest */;
+			productReference = E43389FE2DFB019500F13534 /* VoiceNoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E43389E02DFB019100F13534 /* Build configuration list for PBXProject "NoteTakingApp" */;
+			buildConfigurationList = E43389E02DFB019100F13534 /* Build configuration list for PBXProject "VoiceNote" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +201,17 @@
 			);
 			mainGroup = E43389DC2DFB019100F13534;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E44A81D72DFCA9E100845296 /* XCRemoteSwiftPackageReference "Pulsator" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E43389E62DFB019100F13534 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E43389E42DFB019100F13534 /* NoteTakingApp */,
-				E43389F32DFB019500F13534 /* NoteTakingAppTests */,
-				E43389FD2DFB019500F13534 /* NoteTakingAppUITests */,
+				E43389E42DFB019100F13534 /* VoiceNote */,
+				E43389F32DFB019500F13534 /* VoiceNoteTests */,
+				E43389FD2DFB019500F13534 /* VoiceNoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +267,12 @@
 /* Begin PBXTargetDependency section */
 		E43389F62DFB019500F13534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E43389E42DFB019100F13534 /* NoteTakingApp */;
+			target = E43389E42DFB019100F13534 /* VoiceNote */;
 			targetProxy = E43389F52DFB019500F13534 /* PBXContainerItemProxy */;
 		};
 		E4338A002DFB019500F13534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E43389E42DFB019100F13534 /* NoteTakingApp */;
+			target = E43389E42DFB019100F13534 /* VoiceNote */;
 			targetProxy = E43389FF2DFB019500F13534 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,6 +406,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceNote;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App using microphone please allow to use!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +435,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceNote;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App using microphone please allow to use!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,7 +469,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteTakingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoteTakingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceNote";
 			};
 			name = Debug;
 		};
@@ -474,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteTakingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoteTakingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceNote";
 			};
 			name = Release;
 		};
@@ -513,7 +526,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E43389E02DFB019100F13534 /* Build configuration list for PBXProject "NoteTakingApp" */ = {
+		E43389E02DFB019100F13534 /* Build configuration list for PBXProject "VoiceNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4338A062DFB019500F13534 /* Debug */,
@@ -522,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4338A082DFB019500F13534 /* Build configuration list for PBXNativeTarget "NoteTakingApp" */ = {
+		E4338A082DFB019500F13534 /* Build configuration list for PBXNativeTarget "VoiceNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4338A092DFB019500F13534 /* Debug */,
@@ -531,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4338A0B2DFB019500F13534 /* Build configuration list for PBXNativeTarget "NoteTakingAppTests" */ = {
+		E4338A0B2DFB019500F13534 /* Build configuration list for PBXNativeTarget "VoiceNoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4338A0C2DFB019500F13534 /* Debug */,
@@ -540,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4338A0E2DFB019500F13534 /* Build configuration list for PBXNativeTarget "NoteTakingAppUITests" */ = {
+		E4338A0E2DFB019500F13534 /* Build configuration list for PBXNativeTarget "VoiceNoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4338A0F2DFB019500F13534 /* Debug */,
@@ -550,6 +563,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E44A81D72DFCA9E100845296 /* XCRemoteSwiftPackageReference "Pulsator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shu223/Pulsator.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E44A81D82DFCA9E100845296 /* Pulsator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E44A81D72DFCA9E100845296 /* XCRemoteSwiftPackageReference "Pulsator" */;
+			productName = Pulsator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E43389DD2DFB019100F13534 /* Project object */;
 }
