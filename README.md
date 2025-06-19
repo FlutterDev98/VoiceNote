@@ -127,9 +127,6 @@ open VoiceNote.xcodeproj
 - AVFoundation
 - Pulsator (for UI animations)
 
-## 👥 Authors
-
-- Nuriddin Jumaev - Initial work
 
 ## 🙏 Acknowledgments
 
